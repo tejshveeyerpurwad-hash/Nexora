@@ -1,0 +1,298 @@
+{
+  "users": [
+    {
+      "_id": "usr_mp9o0wkzmnz8",
+      "name": "DevFlow Engineer",
+      "email": "engineer@devflow.ai",
+      "password": "$2a$10$vVt1e4G6NAqTGin4TVDaWu.arjmszhcSagdmAwl/gcQaNroOxIgBu",
+      "role": "developer",
+      "credits": 9100,
+      "createdAt": "2026-05-17T11:01:57.107Z",
+      "updatedAt": "2026-05-17T11:01:57.107Z"
+    },
+    {
+      "_id": "usr_mp9p8yoddgyl",
+      "name": "teju",
+      "email": "teju@gmail.com",
+      "password": "$2a$10$eSBqw88EBKgw1j/yg2Quxubo5JAzynGeDy9Z20OrvLX3VCvqP7q6S",
+      "role": "developer",
+      "credits": 10000,
+      "createdAt": "2026-05-17T11:36:12.685Z",
+      "updatedAt": "2026-05-17T11:36:12.685Z"
+    },
+    {
+      "_id": "usr_mp9vn6rdyaxq",
+      "name": "Test Developer",
+      "email": "developer_test_27@devflow.ai",
+      "password": "$2a$10$8.KcLl3UPDK4AWDuLLNGpeqecWYE3OFYUpdeAVVwudneScBD2vHtW",
+      "role": "developer",
+      "credits": 10000,
+      "createdAt": "2026-05-17T14:35:14.041Z",
+      "updatedAt": "2026-05-17T14:35:14.041Z"
+    },
+    {
+      "_id": "usr_mpmxlw4qe1y4",
+      "name": "teja",
+      "email": "teja@gmail.com",
+      "password": "$2a$10$j0Ci01w/WwQ3yJq2EKF2MeWXOa..oXnnwnWrG48xcuxTUpYTJf/gC",
+      "role": "developer",
+      "credits": 10000,
+      "createdAt": "2026-05-26T17:51:13.130Z",
+      "updatedAt": "2026-05-26T17:51:13.130Z"
+    }
+  ],
+  "tasks": [
+    {
+      "_id": "tsk_mp9o2ssb98l4",
+      "userId": "usr_mp9o0wkzmnz8",
+      "instruction": "setup passport.js credentials with oauth2",
+      "title": "setup passport.js credentials with oauth2",
+      "status": "completed",
+      "logs": [
+        {
+          "type": "info",
+          "text": "DevFlow workspace trigger request accepted.",
+          "timestamp": "2026-05-17T11:03:25.499Z"
+        },
+        {
+          "type": "info",
+          "text": "Indexing local codebase directory contexts...",
+          "timestamp": "2026-05-17T11:03:25.499Z"
+        },
+        {
+          "type": "success",
+          "text": "Task completed successfully in isolated sandbox.",
+          "timestamp": "2026-05-17T11:03:25.499Z"
+        }
+      ],
+      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "costCredits": 100,
+      "createdAt": "2026-05-17T11:03:25.499Z",
+      "updatedAt": "2026-05-17T11:03:25.499Z"
+    },
+    {
+      "_id": "tsk_mp9o51ej2lo6",
+      "userId": "usr_mp9o0wkzmnz8",
+      "instruction": "setup passport.js credentials with oauth2",
+      "title": "setup passport.js credentials with oauth2",
+      "status": "completed",
+      "logs": [
+        {
+          "type": "info",
+          "text": "DevFlow workspace trigger request accepted.",
+          "timestamp": "2026-05-17T11:05:09.979Z"
+        },
+        {
+          "type": "info",
+          "text": "Indexing local codebase directory contexts...",
+          "timestamp": "2026-05-17T11:05:09.979Z"
+        },
+        {
+          "type": "success",
+          "text": "Task completed successfully in isolated sandbox.",
+          "timestamp": "2026-05-17T11:05:09.979Z"
+        }
+      ],
+      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "costCredits": 100,
+      "createdAt": "2026-05-17T11:05:09.979Z",
+      "updatedAt": "2026-05-17T11:05:09.979Z"
+    },
+    {
+      "_id": "tsk_mp9o6wcbs78f",
+      "userId": "usr_mp9o0wkzmnz8",
+      "instruction": "setup passport.js credentials with oauth2",
+      "title": "setup passport.js credentials with oauth2",
+      "status": "completed",
+      "logs": [
+        {
+          "type": "info",
+          "text": "DevFlow workspace trigger request accepted.",
+          "timestamp": "2026-05-17T11:06:36.731Z"
+        },
+        {
+          "type": "info",
+          "text": "Indexing local codebase directory contexts...",
+          "timestamp": "2026-05-17T11:06:36.731Z"
+        },
+        {
+          "type": "success",
+          "text": "Task completed successfully in isolated sandbox.",
+          "timestamp": "2026-05-17T11:06:36.731Z"
+        }
+      ],
+      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "costCredits": 100,
+      "createdAt": "2026-05-17T11:06:36.731Z",
+      "updatedAt": "2026-05-17T11:06:36.731Z"
+    },
+    {
+      "_id": "tsk_mp9o8vwhoyir",
+      "userId": "usr_mp9o0wkzmnz8",
+      "instruction": "setup passport.js credentials with oauth2",
+      "title": "setup passport.js credentials with oauth2",
+      "status": "completed",
+      "logs": [
+        {
+          "type": "info",
+          "text": "DevFlow workspace trigger request accepted.",
+          "timestamp": "2026-05-17T11:08:09.473Z"
+        },
+        {
+          "type": "info",
+          "text": "Indexing local codebase directory contexts...",
+          "timestamp": "2026-05-17T11:08:09.473Z"
+        },
+        {
+          "type": "success",
+          "text": "Task completed successfully in isolated sandbox.",
+          "timestamp": "2026-05-17T11:08:09.473Z"
+        }
+      ],
+      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "costCredits": 100,
+      "createdAt": "2026-05-17T11:08:09.473Z",
+      "updatedAt": "2026-05-17T11:08:09.473Z"
+    },
+    {
+      "_id": "tsk_mp9ob53ejh9d",
+      "userId": "usr_mp9o0wkzmnz8",
+      "instruction": "setup passport.js credentials with oauth2",
+      "title": "setup passport.js credentials with oauth2",
+      "status": "completed",
+      "logs": [
+        {
+          "type": "info",
+          "text": "DevFlow workspace trigger request accepted.",
+          "timestamp": "2026-05-17T11:09:54.698Z"
+        },
+        {
+          "type": "info",
+          "text": "Indexing local codebase directory contexts...",
+          "timestamp": "2026-05-17T11:09:54.698Z"
+        },
+        {
+          "type": "success",
+          "text": "Task completed successfully in isolated sandbox.",
+          "timestamp": "2026-05-17T11:09:54.698Z"
+        }
+      ],
+      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "costCredits": 100,
+      "createdAt": "2026-05-17T11:09:54.698Z",
+      "updatedAt": "2026-05-17T11:09:54.698Z"
+    },
+    {
+      "_id": "tsk_mp9ocec80upg",
+      "userId": "usr_mp9o0wkzmnz8",
+      "instruction": "setup passport.js credentials with oauth2",
+      "title": "setup passport.js credentials with oauth2",
+      "status": "completed",
+      "logs": [
+        {
+          "type": "info",
+          "text": "DevFlow workspace trigger request accepted.",
+          "timestamp": "2026-05-17T11:10:53.336Z"
+        },
+        {
+          "type": "info",
+          "text": "Indexing local codebase directory contexts...",
+          "timestamp": "2026-05-17T11:10:53.336Z"
+        },
+        {
+          "type": "success",
+          "text": "Task completed successfully in isolated sandbox.",
+          "timestamp": "2026-05-17T11:10:53.336Z"
+        }
+      ],
+      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "costCredits": 100,
+      "createdAt": "2026-05-17T11:10:53.336Z",
+      "updatedAt": "2026-05-17T11:10:53.336Z"
+    },
+    {
+      "_id": "tsk_mp9oebx25osz",
+      "userId": "usr_mp9o0wkzmnz8",
+      "instruction": "setup passport.js credentials with oauth2",
+      "title": "setup passport.js credentials with oauth2",
+      "status": "completed",
+      "logs": [
+        {
+          "type": "info",
+          "text": "DevFlow workspace trigger request accepted.",
+          "timestamp": "2026-05-17T11:12:23.510Z"
+        },
+        {
+          "type": "info",
+          "text": "Indexing local codebase directory contexts...",
+          "timestamp": "2026-05-17T11:12:23.510Z"
+        },
+        {
+          "type": "success",
+          "text": "Task completed successfully in isolated sandbox.",
+          "timestamp": "2026-05-17T11:12:23.510Z"
+        }
+      ],
+      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "costCredits": 100,
+      "createdAt": "2026-05-17T11:12:23.510Z",
+      "updatedAt": "2026-05-17T11:12:23.510Z"
+    },
+    {
+      "_id": "tsk_mp9og9p5maad",
+      "userId": "usr_mp9o0wkzmnz8",
+      "instruction": "setup passport.js credentials with oauth2",
+      "title": "setup passport.js credentials with oauth2",
+      "status": "completed",
+      "logs": [
+        {
+          "type": "info",
+          "text": "DevFlow workspace trigger request accepted.",
+          "timestamp": "2026-05-17T11:13:53.945Z"
+        },
+        {
+          "type": "info",
+          "text": "Indexing local codebase directory contexts...",
+          "timestamp": "2026-05-17T11:13:53.945Z"
+        },
+        {
+          "type": "success",
+          "text": "Task completed successfully in isolated sandbox.",
+          "timestamp": "2026-05-17T11:13:53.945Z"
+        }
+      ],
+      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "costCredits": 100,
+      "createdAt": "2026-05-17T11:13:53.945Z",
+      "updatedAt": "2026-05-17T11:13:53.945Z"
+    },
+    {
+      "_id": "tsk_mp9oii6pqwes",
+      "userId": "usr_mp9o0wkzmnz8",
+      "instruction": "setup passport.js credentials with oauth2",
+      "title": "setup passport.js credentials with oauth2",
+      "status": "completed",
+      "logs": [
+        {
+          "type": "info",
+          "text": "DevFlow workspace trigger request accepted.",
+          "timestamp": "2026-05-17T11:15:38.257Z"
+        },
+        {
+          "type": "info",
+          "text": "Indexing local codebase directory contexts...",
+          "timestamp": "2026-05-17T11:15:38.257Z"
+        },
+        {
+          "type": "success",
+          "text": "Task completed successfully in isolated sandbox.",
+          "timestamp": "2026-05-17T11:15:38.257Z"
+        }
+      ],
+      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "costCredits": 100,
+      "createdAt": "2026-05-17T11:15:38.257Z",
+      "updatedAt": "2026-05-17T11:15:38.257Z"
+    }
+  ]
+}
