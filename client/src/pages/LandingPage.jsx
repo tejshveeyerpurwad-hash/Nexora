@@ -25,14 +25,14 @@ export default function LandingPage({ setPage }) {
 
   const tabsContent = {
     agent: {
-      title: "DevFlow Autonomous Architect",
+      title: "Nexora Architect",
       desc: "Our model understands your whole codebase, creates complex multi-file features, and refactors legacy code automatically.",
-      code: `// Initializing DevFlow AI Agent
-import { DevAgent } from '@devflow/sdk';
+      code: `// Initializing Nexora Agent
+import { DevAgent } from '@nexora/sdk';
 
 const agent = new DevAgent({
   projectRoot: './src',
-  model: 'devflow-ultra-v4'
+  model: 'nexora-ultra-v4'
 });
 
 // Run a multi-file migration task
@@ -43,8 +43,8 @@ await agent.executeTask({
     },
     review: {
       title: "AI PR Review & Diagnostics",
-      desc: "Pre-empt bugs and security vulnerabilities on every push. DevFlow provides actionable code suggestions directly in your pipeline.",
-      code: `## DevFlow AI PR Review: #420
+      desc: "Pre-empt bugs and security vulnerabilities on every push. Nexora provides actionable code suggestions directly in your pipeline.",
+      code: `## Nexora PR Review: #420
 ### ⚠️ Security Warning (High Severity)
 In \`auth.js\`, lines 45-48: Using low-entropy salt.
 \`\`\`javascript
@@ -57,13 +57,13 @@ In \`db.js\`: Missing compound index for active queries.`
     deploy: {
       title: "Zero-Config Edge Deployments",
       desc: "Deploy serverless backend APIs and globally distributed React apps in one command. Blazing fast edge infrastructure built in.",
-      code: `$ devflow deploy --production
+      code: `$ nexora deploy --production
 
 🔍 Scanning workspace... (Detected Next.js + Node API)
 ⚡ Bundling modules for edge computing...
-📦 Uploading assets to DevFlow Global Edge (32 locations)
+📦 Uploading assets to Nexora Global Edge (32 locations)
 ✅ Deployment successful!
-🔗 URL: https://devflow-app-9ab2c.devflow.app`
+🔗 URL: https://nexora-app-9ab2c.nexora.app`
     }
   };
 
@@ -84,7 +84,7 @@ In \`db.js\`: Missing compound index for active queries.`
         <div className="flex justify-center mb-6 animate-float">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass border border-slate-200 dark:border-white/10 text-xs font-semibold tracking-wide text-brand-secondary dark:text-purple-400">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Introducing DevFlow AI v1.2: Next-gen code intelligence</span>
+            <span>Introducing Nexora v1.2: Next-gen code intelligence</span>
           </div>
         </div>
 
@@ -94,7 +94,7 @@ In \`db.js\`: Missing compound index for active queries.`
             Build applications at the speed of <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">thought</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-600 dark:text-zinc-400 leading-relaxed font-normal max-w-2xl mx-auto">
-            DevFlow AI brings Vercel's developer experience, GitHub Copilot's inline magic, and autonomous multi-file architecture mapping into a single cohesive ecosystem.
+            Nexora brings Vercel's developer experience, GitHub Copilot's inline magic, and autonomous multi-file architecture mapping into a single cohesive ecosystem.
           </p>
         </div>
 
@@ -122,7 +122,7 @@ In \`db.js\`: Missing compound index for active queries.`
               <span className="w-3 h-3 rounded-full bg-red-400" />
               <span className="w-3 h-3 rounded-full bg-yellow-400" />
               <span className="w-3 h-3 rounded-full bg-green-400" />
-              <span className="text-xs text-slate-500 dark:text-zinc-400 font-mono ml-2">devflow-agent-shell.sh</span>
+              <span className="text-xs text-slate-500 dark:text-zinc-400 font-mono ml-2">nexora-agent-shell.sh</span>
             </div>
             <div className="flex gap-1.5">
               {Object.keys(tabsContent).map((tab) => (
@@ -220,7 +220,7 @@ In \`db.js\`: Missing compound index for active queries.`
               </div>
               <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Workspace Semantics</h4>
               <p className="text-slate-600 dark:text-zinc-400 text-sm leading-relaxed">
-                DevFlow maps every module, interface, and configuration, feeding precise, up-to-date architecture logic directly to the LLM.
+                Nexora maps every module, interface, and configuration, feeding precise, up-to-date architecture logic directly to the LLM.
               </p>
             </div>
 
@@ -291,7 +291,7 @@ In \`db.js\`: Missing compound index for active queries.`
                   </div>
                   <div className="flex items-center gap-2.5 text-xs text-slate-600 dark:text-zinc-400">
                     <CheckCircle2 className="w-4 h-4 text-emerald-500 flex-shrink-0" />
-                    <span>DevFlow Edge deploy (1 project)</span>
+                    <span>Nexora Deploy (1 project)</span>
                   </div>
                 </div>
               </div>
@@ -326,7 +326,7 @@ In \`db.js\`: Missing compound index for active queries.`
                   </div>
                   <div className="flex items-center gap-2.5 text-xs text-slate-600 dark:text-zinc-400">
                     <CheckCircle2 className="w-4 h-4 text-emerald-500 flex-shrink-0" />
-                    <span>DevFlow Edge deploy (Unlimited)</span>
+                    <span>Nexora Deploy (Unlimited)</span>
                   </div>
                   <div className="flex items-center gap-2.5 text-xs text-slate-600 dark:text-zinc-400">
                     <CheckCircle2 className="w-4 h-4 text-emerald-500 flex-shrink-0" />
@@ -376,9 +376,9 @@ In \`db.js\`: Missing compound index for active queries.`
         <div className="border-t border-slate-200 dark:border-white/5 pt-12 text-center text-xs text-slate-500 dark:text-zinc-500 flex flex-col sm:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2 font-bold text-slate-900 dark:text-white">
             <Sparkles className="w-4 h-4 text-blue-500" />
-            <span>DevFlow AI</span>
+            <span>Nexora</span>
           </div>
-          <div>© {new Date().getFullYear()} DevFlow Inc. All rights reserved. Built with Vercel design principles.</div>
+          <div>© {new Date().getFullYear()} Nexora Inc. All rights reserved. Built with Vercel design principles.</div>
           <div className="flex gap-4">
             <a href="#" className="hover:text-slate-800 dark:hover:text-white">Security</a>
             <a href="#" className="hover:text-slate-800 dark:hover:text-white">Privacy Policy</a>

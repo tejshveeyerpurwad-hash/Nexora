@@ -36,7 +36,7 @@ export default function Sidebar({ activeTab, setActiveTab, setPage }) {
           className="flex items-center gap-2 px-3 py-3 mb-6 cursor-pointer hover:opacity-85 transition-opacity"
         >
           <Sparkles className="w-5.5 h-5.5 text-blue-500 animate-float" />
-          <span className="font-bold text-lg text-slate-900 dark:text-white tracking-tight">DevFlow AI</span>
+          <span className="font-bold text-lg text-slate-900 dark:text-white tracking-tight">Nexora</span>
         </div>
 
         {/* Workspace Switcher */}
@@ -47,7 +47,7 @@ export default function Sidebar({ activeTab, setActiveTab, setPage }) {
                 DF
               </div>
               <div className="text-left">
-                <p className="text-xs font-bold text-slate-900 dark:text-white leading-tight">DevFlow Workspace</p>
+                <p className="text-xs font-bold text-slate-900 dark:text-white leading-tight">Nexora Workspace</p>
                 <p className="text-[10px] text-slate-500 dark:text-zinc-400">hobby-team-a</p>
               </div>
             </div>
@@ -106,7 +106,7 @@ export default function Sidebar({ activeTab, setActiveTab, setPage }) {
                 {user ? user.name : 'Developer'}
               </p>
               <p className="text-[10px] text-slate-500 dark:text-zinc-500 leading-none">
-                {user ? user.email : 'dev@devflow.ai'}
+                {user ? user.email : 'dev@nexora.ai'}
               </p>
             </div>
           </div>

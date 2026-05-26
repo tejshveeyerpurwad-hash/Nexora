@@ -26,7 +26,7 @@ app.get('/api/health', (req, res) => {
   res.status(200).json({
     status: 'healthy',
     timestamp: new Date(),
-    service: 'DevFlow AI Engine API',
+    service: 'Nexora Engine API',
   });
 });
 
@@ -43,5 +43,5 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`🚀 DevFlow backend server successfully booted up on port ${PORT}`);
+  console.log(`🚀 Nexora backend server successfully booted up on port ${PORT}`);
 });

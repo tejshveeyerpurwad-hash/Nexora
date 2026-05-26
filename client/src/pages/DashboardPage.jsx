@@ -35,8 +35,8 @@ export default function DashboardPage({ setPage }) {
   
   // Interactive Mock AI console state
   const [agentLogs, setAgentLogs] = useState([
-    { id: 1, type: 'info', text: 'DevFlow engine v1.2 initialized successfully.', time: '14:20:10' },
-    { id: 2, type: 'info', text: 'Watching workspace repository: /hobby-team-a/devflow-app...', time: '14:20:11' },
+    { id: 1, type: 'info', text: 'Nexora engine v1.2 initialized successfully.', time: '14:20:10' },
+    { id: 2, type: 'info', text: 'Watching workspace repository: /hobby-team-a/nexora-app...', time: '14:20:11' },
     { id: 3, type: 'success', text: 'Semantic map updated: 24 modules indexed successfully.', time: '14:20:15' }
   ]);
   const [isAgentRunning, setIsAgentRunning] = useState(false);
@@ -44,7 +44,7 @@ export default function DashboardPage({ setPage }) {
   const [taskInput, setTaskInput] = useState('');
 
   // Mock code generated states
-  const [mockEditorCode, setMockEditorCode] = useState(`// DevFlow Sandboxed Code Editor\n// Select or run an AI Agent task to populate this space.`);
+  const [mockEditorCode, setMockEditorCode] = useState(`// Nexora Sandboxed Code Editor\n// Select or run an AI Agent task to populate this space.`);
 
   const createGuestTask = (instruction) => ({
     _id: `guest-${Date.now().toString(36)}`,
@@ -179,7 +179,7 @@ export default function DashboardPage({ setPage }) {
         },
         body: JSON.stringify({
           title: runInput,
-          description: 'DevFlow Terminal Agent Compilation'
+          description: 'Nexora Terminal Agent Compilation'
         })
       });
 
@@ -227,7 +227,7 @@ export default function DashboardPage({ setPage }) {
     setAgentLogs([
       { id: 1, type: 'info', text: 'Logs cleared. Ready for next agent instructions.', time: new Date().toLocaleTimeString() }
     ]);
-    setMockEditorCode('// DevFlow Sandboxed Code Editor\n// Select or run an AI Agent task to populate this space.');
+    setMockEditorCode('// Nexora Sandboxed Code Editor\n// Select or run an AI Agent task to populate this space.');
   };
 
   return (
@@ -331,7 +331,7 @@ export default function DashboardPage({ setPage }) {
                       <Layers className="w-4 h-4 text-pink-500" />
                     </div>
                     <p className="text-2xl font-bold mt-2 text-slate-900 dark:text-white">12 ms</p>
-                    <p className="text-[10px] text-slate-500 dark:text-zinc-500 mt-1 font-mono">DevFlow Global Edge (US-East)</p>
+                    <p className="text-[10px] text-slate-500 dark:text-zinc-500 mt-1 font-mono">Nexora Global Edge (US-East)</p>
                   </div>
                 </div>
 
@@ -344,7 +344,7 @@ export default function DashboardPage({ setPage }) {
                     <div className="px-4 py-3 border-b border-slate-200 dark:border-white/5 bg-slate-50 dark:bg-zinc-900/40 flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <Terminal className="w-4 h-4 text-blue-500" />
-                        <span className="text-xs font-mono font-bold">devflow-agent-stream.io</span>
+                        <span className="text-xs font-mono font-bold">nexora-agent-stream.io</span>
                       </div>
                       <div className="flex gap-2">
                         <button 
@@ -371,7 +371,7 @@ export default function DashboardPage({ setPage }) {
                       ))}
                       {isAgentRunning && (
                         <div className="flex items-center gap-2 text-blue-400 mt-2 animate-pulse">
-                          <span>⏱ Running DevFlow model agent processes...</span>
+                          <span>⏱ Running Nexora model agent processes...</span>
                         </div>
                       )}
                     </div>
@@ -429,7 +429,7 @@ export default function DashboardPage({ setPage }) {
                     <Cpu className="w-6 h-6 text-purple-500" /> AI Agent Console
                   </h3>
                   <p className="text-xs text-slate-500 dark:text-zinc-400 mt-1">
-                    Ask DevFlow AI to perform multi-file operations, clean code debts, write comprehensive test cases, or inspect structural dependencies.
+                    Ask Nexora to perform multi-file operations, clean code debts, write comprehensive test cases, or inspect structural dependencies.
                   </p>
                 </div>
 
@@ -444,8 +444,8 @@ export default function DashboardPage({ setPage }) {
                       <div className="space-y-1">
                         <label className="text-[10px] font-bold text-slate-500 dark:text-zinc-500 uppercase tracking-widest">Inference Model</label>
                         <select className="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-white/5 bg-slate-100/50 dark:bg-white/5 focus:outline-none text-xs transition-all">
-                          <option>devflow-ultra-v4 (Recommended)</option>
-                          <option>devflow-fast-v2</option>
+                          <option>nexora-ultra-v4 (Recommended)</option>
+                          <option>nexora-fast-v2</option>
                           <option>gpt-4o-code-specialist</option>
                         </select>
                       </div>
@@ -481,7 +481,7 @@ export default function DashboardPage({ setPage }) {
                     <div className="px-4 py-3.5 border-b border-slate-200 dark:border-white/5 bg-slate-50 dark:bg-zinc-900/40 flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <Terminal className="w-4 h-4 text-purple-500 animate-pulse" />
-                        <span className="text-xs font-mono font-bold">devflow-autonomous-terminal.io</span>
+                        <span className="text-xs font-mono font-bold">nexora-autonomous-terminal.io</span>
                       </div>
                       <span className="px-2 py-0.5 rounded bg-emerald-500/10 text-[9px] font-bold text-emerald-500 font-mono uppercase tracking-widest">
                         Idle
@@ -493,7 +493,7 @@ export default function DashboardPage({ setPage }) {
                         <Sparkles className="w-8 h-8 text-purple-400 mx-auto animate-float" />
                         <h4 className="text-sm font-bold text-white">Trigger an Autonomous Agent Task</h4>
                         <p className="text-[11px] text-zinc-500 leading-relaxed">
-                          Enter your project instructions in the input bar below. DevFlow AI will automatically map directories, design refactors, and execute tests.
+                          Enter your project instructions in the input bar below. Nexora will automatically map directories, design refactors, and execute tests.
                         </p>
                       </div>
                     </div>
@@ -587,7 +587,7 @@ export default function DashboardPage({ setPage }) {
                       <Layers className="w-6 h-6 text-pink-500" /> Deployments Console
                     </h3>
                     <p className="text-xs text-slate-500 dark:text-zinc-400 mt-1">
-                      Blazing fast deployments hosted on DevFlow serverless edge globally. Connected with Git hooks.
+                      Blazing fast deployments hosted on Nexora serverless edge globally. Connected with Git hooks.
                     </p>
                   </div>
                   <button
@@ -707,7 +707,7 @@ export default function DashboardPage({ setPage }) {
                   <div className="py-5 flex flex-col sm:flex-row justify-between sm:items-center gap-3">
                     <div>
                       <h4 className="font-bold text-slate-950 dark:text-white">Workspace Repository Access</h4>
-                      <p className="text-slate-500 dark:text-zinc-400 mt-0.5">Let DevFlow auto sync branches and code definitions.</p>
+                      <p className="text-slate-500 dark:text-zinc-400 mt-0.5">Let Nexora auto sync branches and code definitions.</p>
                     </div>
                     <button className="px-3.5 py-2 rounded-xl border border-slate-200 dark:border-white/5 bg-slate-100 hover:bg-slate-200 dark:bg-white/5 dark:hover:bg-white/10 font-bold transition-all flex items-center gap-1.5">
                       <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

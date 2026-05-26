@@ -54,12 +54,12 @@ export default function LoginPage({ setPage }) {
               className="flex items-center gap-2 font-bold text-slate-900 dark:text-white mb-10 cursor-pointer hover:opacity-80 transition-opacity inline-flex"
             >
               <Sparkles className="w-5 h-5 text-blue-500" />
-              <span className="font-sans text-lg tracking-tight">DevFlow AI</span>
+              <span className="font-sans text-lg tracking-tight">Nexora</span>
             </div>
 
             <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">Welcome Back</h2>
             <p className="text-sm text-slate-600 dark:text-zinc-400 mb-8">
-              Access your DevFlow terminal and restart your agent workflows.
+              Access your Nexora terminal and restart your agent workflows.
             </p>
 
             {errorMsg && (
@@ -207,7 +207,7 @@ export default function LoginPage({ setPage }) {
           <div className="relative z-10">
             <h3 className="text-xl font-bold mb-2">Automate your stack effortlessly</h3>
             <p className="text-xs text-zinc-400 leading-relaxed">
-              DevFlow securely parses semantic files in absolute isolation. All code intelligence remains strictly within your enterprise guardrails.
+              Nexora securely parses semantic files in absolute isolation. All code intelligence remains strictly within your enterprise guardrails.
             </p>
           </div>
         </div>

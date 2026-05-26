@@ -5,7 +5,7 @@ import { getStore, saveStore } from '../config/db.js';
 
 // Helper to generate secure JWT
 const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET || 'devflow_jwt_secret_key_1234', {
+  return jwt.sign({ id }, process.env.JWT_SECRET || 'nexora_jwt_secret_key_1234', {
     expiresIn: '30d',
   });
 };

@@ -2,8 +2,8 @@
   "users": [
     {
       "_id": "usr_mp9o0wkzmnz8",
-      "name": "DevFlow Engineer",
-      "email": "engineer@devflow.ai",
+      "name": "Nexora Engineer",
+      "email": "engineer@nexora.ai",
       "password": "$2a$10$vVt1e4G6NAqTGin4TVDaWu.arjmszhcSagdmAwl/gcQaNroOxIgBu",
       "role": "developer",
       "credits": 9100,
@@ -23,7 +23,7 @@
     {
       "_id": "usr_mp9vn6rdyaxq",
       "name": "Test Developer",
-      "email": "developer_test_27@devflow.ai",
+      "email": "developer_test_27@nexora.ai",
       "password": "$2a$10$8.KcLl3UPDK4AWDuLLNGpeqecWYE3OFYUpdeAVVwudneScBD2vHtW",
       "role": "developer",
       "credits": 10000,
@@ -51,7 +51,7 @@
       "logs": [
         {
           "type": "info",
-          "text": "DevFlow workspace trigger request accepted.",
+          "text": "Nexora workspace trigger request accepted.",
           "timestamp": "2026-05-17T11:03:25.499Z"
         },
         {
@@ -65,7 +65,7 @@
           "timestamp": "2026-05-17T11:03:25.499Z"
         }
       ],
-      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "generatedCode": "// Nexora sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
       "costCredits": 100,
       "createdAt": "2026-05-17T11:03:25.499Z",
       "updatedAt": "2026-05-17T11:03:25.499Z"
@@ -79,7 +79,7 @@
       "logs": [
         {
           "type": "info",
-          "text": "DevFlow workspace trigger request accepted.",
+          "text": "Nexora workspace trigger request accepted.",
           "timestamp": "2026-05-17T11:05:09.979Z"
         },
         {
@@ -93,7 +93,7 @@
           "timestamp": "2026-05-17T11:05:09.979Z"
         }
       ],
-      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "generatedCode": "// Nexora sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
       "costCredits": 100,
       "createdAt": "2026-05-17T11:05:09.979Z",
       "updatedAt": "2026-05-17T11:05:09.979Z"
@@ -107,7 +107,7 @@
       "logs": [
         {
           "type": "info",
-          "text": "DevFlow workspace trigger request accepted.",
+          "text": "Nexora workspace trigger request accepted.",
           "timestamp": "2026-05-17T11:06:36.731Z"
         },
         {
@@ -121,7 +121,7 @@
           "timestamp": "2026-05-17T11:06:36.731Z"
         }
       ],
-      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "generatedCode": "// Nexora sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
       "costCredits": 100,
       "createdAt": "2026-05-17T11:06:36.731Z",
       "updatedAt": "2026-05-17T11:06:36.731Z"
@@ -135,7 +135,7 @@
       "logs": [
         {
           "type": "info",
-          "text": "DevFlow workspace trigger request accepted.",
+          "text": "Nexora workspace trigger request accepted.",
           "timestamp": "2026-05-17T11:08:09.473Z"
         },
         {
@@ -149,7 +149,7 @@
           "timestamp": "2026-05-17T11:08:09.473Z"
         }
       ],
-      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "generatedCode": "// Nexora sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
       "costCredits": 100,
       "createdAt": "2026-05-17T11:08:09.473Z",
       "updatedAt": "2026-05-17T11:08:09.473Z"
@@ -163,7 +163,7 @@
       "logs": [
         {
           "type": "info",
-          "text": "DevFlow workspace trigger request accepted.",
+          "text": "Nexora workspace trigger request accepted.",
           "timestamp": "2026-05-17T11:09:54.698Z"
         },
         {
@@ -177,7 +177,7 @@
           "timestamp": "2026-05-17T11:09:54.698Z"
         }
       ],
-      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "generatedCode": "// Nexora sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
       "costCredits": 100,
       "createdAt": "2026-05-17T11:09:54.698Z",
       "updatedAt": "2026-05-17T11:09:54.698Z"
@@ -191,7 +191,7 @@
       "logs": [
         {
           "type": "info",
-          "text": "DevFlow workspace trigger request accepted.",
+          "text": "Nexora workspace trigger request accepted.",
           "timestamp": "2026-05-17T11:10:53.336Z"
         },
         {
@@ -205,7 +205,7 @@
           "timestamp": "2026-05-17T11:10:53.336Z"
         }
       ],
-      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "generatedCode": "// Nexora sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
       "costCredits": 100,
       "createdAt": "2026-05-17T11:10:53.336Z",
       "updatedAt": "2026-05-17T11:10:53.336Z"
@@ -219,7 +219,7 @@
       "logs": [
         {
           "type": "info",
-          "text": "DevFlow workspace trigger request accepted.",
+          "text": "Nexora workspace trigger request accepted.",
           "timestamp": "2026-05-17T11:12:23.510Z"
         },
         {
@@ -233,7 +233,7 @@
           "timestamp": "2026-05-17T11:12:23.510Z"
         }
       ],
-      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "generatedCode": "// Nexora sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
       "costCredits": 100,
       "createdAt": "2026-05-17T11:12:23.510Z",
       "updatedAt": "2026-05-17T11:12:23.510Z"
@@ -247,7 +247,7 @@
       "logs": [
         {
           "type": "info",
-          "text": "DevFlow workspace trigger request accepted.",
+          "text": "Nexora workspace trigger request accepted.",
           "timestamp": "2026-05-17T11:13:53.945Z"
         },
         {
@@ -261,7 +261,7 @@
           "timestamp": "2026-05-17T11:13:53.945Z"
         }
       ],
-      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "generatedCode": "// Nexora sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
       "costCredits": 100,
       "createdAt": "2026-05-17T11:13:53.945Z",
       "updatedAt": "2026-05-17T11:13:53.945Z"
@@ -275,7 +275,7 @@
       "logs": [
         {
           "type": "info",
-          "text": "DevFlow workspace trigger request accepted.",
+          "text": "Nexora workspace trigger request accepted.",
           "timestamp": "2026-05-17T11:15:38.257Z"
         },
         {
@@ -289,7 +289,7 @@
           "timestamp": "2026-05-17T11:15:38.257Z"
         }
       ],
-      "generatedCode": "// DevFlow sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
+      "generatedCode": "// Nexora sandbox compiled output\n// Task: \"setup passport.js credentials with oauth2\"\n// Environment: Isolated node-19-serverless edge container\n// Latency: 12ms\n\nimport fs from 'fs';\nimport path from 'path';\n\nexport const handleWorkflow = async (context) => {\n  console.log(\"🚀 Executing dynamic worker task...\");\n  \n  const payload = {\n    task: \"setup passport.js credentials with oauth2\",\n    status: \"active\",\n    completed: true,\n    timestamp: new Date().toISOString()\n  };\n  \n  return {\n    success: true,\n    result: payload,\n    workerId: \"df_worker_\" + Math.random().toString(36).substring(2, 8)\n  };\n};",
       "costCredits": 100,
       "createdAt": "2026-05-17T11:15:38.257Z",
       "updatedAt": "2026-05-17T11:15:38.257Z"

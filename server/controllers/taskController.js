@@ -63,7 +63,7 @@ export const createTask = async (req, res) => {
             messages: [
               {
                 role: 'system',
-                content: 'You are DevFlow AI, a premium software engineering agent. Return ONLY clean, valid, professional production-grade JavaScript/React/Node.js code. Do NOT wrap in markdown code blocks or backticks. Just output the raw code directly. Keep comments brief and focus on clean structure.'
+                content: 'You are Nexora, a premium software engineering agent. Return ONLY clean, valid, professional production-grade JavaScript/React/Node.js code. Do NOT wrap in markdown code blocks or backticks. Just output the raw code directly. Keep comments brief and focus on clean structure.'
               },
               {
                 role: 'user',
@@ -104,7 +104,7 @@ export const createTask = async (req, res) => {
         title: instruction,
         status: 'completed',
         logs: [
-          { type: 'info', text: 'DevFlow workspace trigger request accepted.', timestamp: new Date().toISOString() },
+          { type: 'info', text: 'Nexora workspace trigger request accepted.', timestamp: new Date().toISOString() },
           { type: 'info', text: 'Indexing local codebase directory contexts...', timestamp: new Date().toISOString() },
           { type: 'success', text: systemLogMsg, timestamp: new Date().toISOString() }
         ],
@@ -126,7 +126,7 @@ export const createTask = async (req, res) => {
       instruction,
       status: 'completed',
       logs: [
-        { type: 'info', text: 'DevFlow workspace trigger request accepted.' },
+        { type: 'info', text: 'Nexora workspace trigger request accepted.' },
         { type: 'info', text: 'Indexing local codebase directory contexts...' },
         { type: 'success', text: systemLogMsg }
       ],
@@ -145,7 +145,7 @@ const generateFallbackCode = (instruction) => {
   const instr = instruction.toLowerCase();
   
   if (instr.includes('auth') || instr.includes('login') || instr.includes('passport')) {
-    return `// DevFlow sandbox compiled output
+    return `// Nexora sandbox compiled output
 // Task: "${instruction}"
 // Mode: Sandbox Fallback Engine (OAuth2 & JWT Auth Specialist)
 
@@ -190,7 +190,7 @@ export default router;`;
   }
   
   if (instr.includes('db') || instr.includes('mongoose') || instr.includes('schema') || instr.includes('mongo')) {
-    return `// DevFlow sandbox compiled output
+    return `// Nexora sandbox compiled output
 // Task: "${instruction}"
 // Mode: Sandbox Fallback Engine (Mongoose Schema Compiler)
 
@@ -232,7 +232,7 @@ export const Product = mongoose.model('Product', productSchema);`;
   }
 
   if (instr.includes('stripe') || instr.includes('payment') || instr.includes('webhook')) {
-    return `// DevFlow sandbox compiled output
+    return `// Nexora sandbox compiled output
 // Task: "${instruction}"
 // Mode: Sandbox Fallback Engine (Stripe API Gateway Integrator)
 
@@ -267,7 +267,7 @@ export default router;`;
   }
 
   // Default elegant boilerplate if no keyword matches
-  return `// DevFlow sandbox compiled output
+  return `// Nexora sandbox compiled output
 // Task: "${instruction}"
 // Mode: Sandbox Fallback Engine
 
@@ -281,7 +281,7 @@ export const handleWorkerRequest = async (req, res) => {
     const result = {
       status: "completed",
       instruction: "${instruction}",
-      executedBy: "devflow-worker-edge",
+      executedBy: "nexora-worker-edge",
       timestamp: new Date().toISOString()
     };
     

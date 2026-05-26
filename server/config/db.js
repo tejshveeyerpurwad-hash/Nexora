@@ -28,12 +28,12 @@ export const saveStore = (store) => {
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/devflow');
+    const conn = await mongoose.connect(process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/nexora');
     console.log(`📡 MongoDB Connected: ${conn.connection.host}`);
     global.dbMode = 'mongodb';
   } catch (error) {
     console.log(`⚠️ Database Warning: Local MongoDB daemon not active at 127.0.0.1:27017.`);
-    console.log(`🚀 Bootstrapping DevFlow in Sandbox Fail-Safe Local Store Mode (db_fallback.json)!`);
+    console.log(`🚀 Bootstrapping Nexora in Sandbox Fail-Safe Local Store Mode (db_fallback.json)!`);
     console.log(`💡 Note: Register, login, protected routes, and console deductions will work perfectly!`);
     global.dbMode = 'fallback';
   }

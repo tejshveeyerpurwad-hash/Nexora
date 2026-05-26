@@ -31,7 +31,7 @@ function AppContent({ page, setPage }) {
             className="flex items-center gap-1.5 font-extrabold text-xs text-slate-950 dark:text-white cursor-pointer select-none"
           >
             <Sparkles className="w-3.5 h-3.5 text-blue-500" />
-            <span>DevFlow AI</span>
+            <span>Nexora</span>
           </div>
 
           <div className="h-4 w-px bg-slate-200 dark:bg-white/10" />

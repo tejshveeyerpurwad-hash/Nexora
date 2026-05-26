@@ -59,7 +59,7 @@ export default function RegisterPage({ setPage }) {
               className="flex items-center gap-2 font-bold text-slate-900 dark:text-white mb-8 cursor-pointer hover:opacity-80 transition-opacity inline-flex"
             >
               <Sparkles className="w-5 h-5 text-blue-500" />
-              <span className="font-sans text-lg tracking-tight">DevFlow AI</span>
+              <span className="font-sans text-lg tracking-tight">Nexora</span>
             </div>
 
             <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">Create Account</h2>
@@ -254,7 +254,7 @@ export default function RegisterPage({ setPage }) {
           <div className="relative z-10">
             <h3 className="text-xl font-bold mb-2">Designed for elite speed</h3>
             <p className="text-xs text-zinc-400 leading-relaxed">
-              DevFlow combines standard Git workflows with deep LLM semantic memory to turn manual code tracking into background noise.
+              Nexora combines standard Git workflows with deep LLM semantic memory to turn manual code tracking into background noise.
             </p>
           </div>
         </div>
